@@ -23,7 +23,7 @@
         ['Welcome. This used to be a blog. Now it is a business card with a shell.'],
         ['Type ', { t: 'help', c: 'accent' }, ' to look around, or ', { t: 'linkedin', c: 'accent' }, ' to get to the point.']
       ],
-      whoami: [['a nerd. more on ', { t: 'linkedin', href: LINKEDIN }, '.']],
+      whoami: [['Head of Software Development @Polipol - more on ', { t: 'LinkedIn', href: LINKEDIN }]],
       help: {
         help: 'show this list',
         whoami: 'who lives here',
@@ -70,7 +70,7 @@
         ['Willkommen. Hier war mal ein Blog. Jetzt ist es eine Visitenkarte mit Shell.'],
         ['Tippe ', { t: 'help', c: 'accent' }, ', um dich umzusehen, oder ', { t: 'linkedin', c: 'accent' }, ', um zur Sache zu kommen.']
       ],
-      whoami: [['ein Nerd. Mehr auf ', { t: 'LinkedIn', href: LINKEDIN }, '.']],
+      whoami: [['Leiter Softwareentwicklung @Polipol - mehr auf ', { t: 'LinkedIn', href: LINKEDIN }]],
       help: {
         help: 'diese Liste',
         whoami: 'wer hier wohnt',
