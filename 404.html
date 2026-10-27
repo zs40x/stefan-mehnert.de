@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 · ~/stefan-mehnert</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <main>
+    <section class="term" aria-label="Terminal">
+      <div class="term-bar" aria-hidden="true">
+        <div class="term-dots"><span></span><span></span><span></span></div>
+        <div class="term-title">guest@stefan-mehnert: ~</div>
+      </div>
+      <div class="term-body" style="height:auto">
+        <div class="line"><span class="prompt-user">guest@stefan-mehnert</span>:<span class="prompt-path">~</span>$ cd <span id="path">this-page</span></div>
+        <div class="line danger">bash: cd: <span id="path2">this-page</span>: No such file or directory</div>
+        <div class="line faint">// 404. the old blog is gone, and it is not coming back.</div>
+        <div class="line">&nbsp;</div>
+        <div class="line"><span class="prompt-user">guest@stefan-mehnert</span>:<span class="prompt-path">~</span>$ <a href="/">cd ~</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="status">
+    <span><span class="dot">●</span> online · v1.0</span>
+    <span><a href="/impressum.html">impressum</a> · <a href="/datenschutz.html">datenschutz</a></span>
+  </footer>
+  <script>
+    document.getElementById('path').textContent = location.pathname;
+    document.getElementById('path2').textContent = location.pathname;
+  </script>
+</body>
+</html>
